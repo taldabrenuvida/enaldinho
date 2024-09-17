@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>Em busca da fama</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnQIKx3gxlOBIpK89I2FhB_Bkcj62T9CAFbIE4XXKxJ-m-Q_De4aoqpm2rAvbZUPath5Q&usqp=CAU" width="820" height="405" alt="A">
+            <p>Um dia Gugu Gaiteiro estava dirigindo um Jeep Renegade para ir gravar um vídeo com...</p>
+            <button class="btn-proximo" data-proximo="1">Felipe Neto</button> <!-- CIMA -->
+            <button class="btn-proximo" data-proximo="2">Enaldinho</button> <!-- BAIXO -->
+        </div>
+
+        <!-- Escolha Felipe Neto -->
+        <div class="passo" id="passo-1">
+            <p>Felipe Neto te chamou para pintar o cabelo em vídeo.</p>
+            <button class="btn-proximo" data-proximo="3">Aceitar!!!</button> <!-- CIMA -->
+            <button class="btn-proximo" data-proximo="4">Negar</button> <!-- CIMA -->
+        </div>
+
+        <!-- Escolha Enaldinho -->
+        <div class="passo" id="passo-2">
+            <p>Enaldinho te chamou para gravar um vídeo de quem chupar a bala primeiro ganha.</p>
+            <button class="btn-proximo" data-proximo="5">Chupar a bala bem rápido</button> <!-- BAIXO -->
+            <button class="btn-proximo" data-proximo="6">Manter a concentração e chupar com calma</button> <!-- BAIXO -->
+        </div>
+
+        <!-- Cabelo caiu -->
+        <div class="passo" id="passo-3">
+            <p>Seu cabelo caiu!!!!! Mas o vídeo ficou muito engraçado...</p>
+            <button class="btn-proximo" data-proximo="7">Continuar</button> <!-- CIMA (Botão para continuar) -->
+        </div>
+
+        <!-- Felipe Neto rejeita -->
+        <div class="passo" id="passo-4">
+            <img src="https://i1.sndcdn.com/artworks-P88cZPXpusU7998T-4h4XJA-t500x500.jpg" width="820" height="405" alt="A">
+            <p>Felipe Neto bateu o pé no chão e falou: "Saia da minha casa!"</p>
+        </div>
+
+        <!-- Você perdeu com Enaldinho -->
+        <div class="passo" id="passo-5">
+            <p>Você perdeu 😭😭😭 Enaldinho engoliu a bala, acabando com todas as suas chances de ganhar...</p>
+            <button class="btn-proximo" data-proximo="8">Elaborar uma trapaça</button> <!-- BAIXO -->
+        </div>
+
+        <!-- Enaldinho te supera -->
+        <div class="passo" id="passo-6">
+            <p>Enaldinho dispara na sua frente, chupando o mais rápido possível 😣😣😣😣.</p>
+            <button class="btn-proximo" data-proximo="7">Enviar o vídeo para o YouTube</button> <!-- CIMA -->
+        </div>
+
+        <!-- Trapaça contra Enaldinho -->
+        <div class="passo" id="passo-8">
+            <p>Você engoliu a bala ganhando do Enaldinho em seu próprio vídeo!!!</p>
+            <button class="btn-proximo" data-proximo="7">Enviar o vídeo</button> <!-- BAIXO -->
+        </div>
+
+        <!-- Enviar o vídeo -->
+        <div class="passo" id="passo-7">
+            <p>Seu vídeo bombou 🤯🤯🤯🤑🤑! Celso Russomanno te chamou para avaliação de restaurantes!</p>
+            <button class="btn-proximo" data-proximo="9">Ir avaliar a lanchonete do Sr. Breno Pinot</button> <!-- CIMA -->
+            <button class="btn-proximo" data-proximo="10">Ir avaliar a padaria do Sr. Kauan Zap da Silva</button> <!-- BAIXO -->
+        </div>
+
+        <!-- Avaliação da lanchonete -->
+        <div class="passo" id="passo-9">
+            <p>Celso adorou sua avaliação sobre o lanche de 3 salsichas e meia do Sr. Breno Pinot. Ele falou para você abrir um programa de avaliação com o filho dele, Sr. Mineirinho da Silva UAI.</p>
+            <button class="btn-proximo" data-proximo="11">Colocar o programa de avaliação no ar</button> <!-- CIMA -->
+        </div>
+
+        <!-- Avaliação da padaria -->
+        <div class="passo" id="passo-10">
+            <p>Celso adorou sua avaliação do pingado de leite pasteurizado da marca Barriguinha Mole.</p>
+            <button class="btn-proximo" data-proximo="11">Colocar o programa de avaliação no ar</button> <!-- CIMA -->
+        </div>
+
+        <!-- Colocar o programa no ar -->
+        <div class="passo" id="passo-11">
+            <p>Você colocou o programa de avaliação no ar!</p>
+            <button class="btn-proximo" data-proximo="12">Aceitar proposta secreta de Celso</button> <!-- CIMA -->
+        </div>
+
+        <!-- Proposta secreta de Celso -->
+        <div class="passo" id="passo-12">
+            <img src="https://i.pinimg.com/236x/b2/2c/dd/b22cdd2c44884270bb9550ebbbd89771.jpg" width="820" height="405" alt="A">
+            <p>Ele te chamou para abrir um programa de avaliação com seu filho Danilo Bet da Silva. Você virou um dos maiores avaliadores do mundo, com sua marca registrada "3 Palhaços" tatuada nas costas, tomando pingado de leite pasteurizado da marca Barriguinha Mole e comendo o lanche de três salsichas e meia.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
